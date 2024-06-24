@@ -1,0 +1,65 @@
+.donationpage {
+	width: 100%;
+	background-color: var(--background);
+}
+
+.donationpage__container {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 6rem;
+}
+
+.donationpage__header--container {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background-color: var(--background-light);
+	background-image: url(../../images/searchbg.png);
+	width: 100%;
+	padding: 5rem 2rem;
+	border-radius: 1rem;
+}
+
+.donationpage__heading {
+	font-size: 2.5rem;
+}
+
+.donationpage__desc {
+	font-size: 1.3rem;
+}
+
+.donationpage--details {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	flex-direction: column;
+	margin-bottom: 4rem;
+}
+
+.donationpage--details h2 {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+
+.donationpage--details--guideline--desc {
+	margin-top: 0.8rem;
+	font-weight: 400;
+	color: var(--grey);
+}
+
+.donationpage--details--guideline--step {
+	margin-top: 2.5rem;
+	font-weight: 500;
+	font-size: 1.2rem;
+}
+
+.donationpage--details--link {
+	color: var(--primary);
+	font-weight: 500;
+}

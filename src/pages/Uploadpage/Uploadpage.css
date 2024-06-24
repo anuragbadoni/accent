@@ -1,0 +1,189 @@
+.uploadpage {
+	background-color: var(--background);
+	width: 100%;
+}
+
+.uploadpage--container {
+	min-height: calc(100vh - 6rem);
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.upload--form--container {
+	width: 100%;
+	max-width: 1440px;
+	/* background-color: var(--background-light); */
+	padding: 2rem;
+	border-radius: 1rem;
+}
+
+.upload--form--header {
+	font-weight: 600;
+}
+
+.upload--form--subheading {
+	color: var(--grey);
+	font-size: 1rem;
+}
+
+.upload--form--subheading span {
+	color: var(--primary);
+}
+
+.upload--form--body {
+	width: 100%;
+	margin-top: 2rem;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	flex-direction: column;
+	gap: 2rem;
+}
+
+.upload--form--input {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	flex-direction: column;
+}
+
+.upload--form--input label {
+	font-weight: 300;
+}
+
+.upload--form--input input {
+	border: none;
+	outline: none;
+	background-color: var(--background-light);
+	width: 100%;
+	padding: 0.6rem 1.2rem;
+	border-radius: 0.5rem;
+	margin-top: 0.5rem;
+	font-size: 1rem;
+	color: var(--font-color);
+}
+
+.upload--form--input--field {
+	resize: none;
+	border: none;
+	outline: none;
+	background-color: var(--background-light);
+	padding: 0.6rem 1.2rem;
+	font-size: 1rem;
+	border-radius: 0.5rem;
+	margin-top: 0.5rem;
+	width: 100%;
+	height: 8rem;
+	color: var(--font-color);
+}
+
+.upload--form--file--container {
+	width: 100%;
+	border-radius: 0.5rem;
+	background-color: var(--background-light);
+	padding: 0.6rem;
+}
+
+.upload--form--file {
+	min-height: 8rem;
+	border: 2px dashed var(--grey);
+	border-radius: 0.5rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 2rem 1rem;
+	cursor: pointer;
+	font-weight: 400;
+	color: var(--grey);
+	transition: all 0.25s ease-in-out;
+}
+
+.upload--form--file:hover {
+	color: var(--primary);
+	transition: all 0.25s ease-in-out;
+}
+
+.upload--form--file p {
+	text-align: center;
+	font-size: 0.9rem;
+}
+
+.upload--form--preview {
+	width: 100%;
+	position: relative;
+}
+
+.upload--form--preview--closeBtn {
+	position: absolute;
+	top: 1rem;
+	right: -1rem;
+	font-size: 2rem;
+	transition: all 0.25s ease-in-out;
+	cursor: pointer;
+	color: var(--primary);
+}
+
+.upload--form--preview--closeBtn:hover {
+	color: var(--primary-darker);
+	transition: all 0.25s ease-in-out;
+}
+
+.upload--form--preview--image {
+	width: 100%;
+	overflow: hidden;
+	border-radius: 0.5rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 0.5rem;
+}
+
+.upload--form--imageInput {
+	display: none;
+}
+
+.upload--form--confirm {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 1rem;
+	font-weight: 300;
+}
+
+.upload--submit--btn {
+	align-self: flex-end;
+}
+
+.upload--form--error--message {
+	font-size: 0.9rem;
+	color: red;
+	font-style: italic;
+	font-weight: 300;
+	align-self: flex-end;
+}
+
+@media screen and (max-width: 768px) {
+	.upload--form--container {
+		padding: 0;
+	}
+
+	.upload--form--header {
+		font-size: 1.5rem;
+	}
+
+	.upload--form--subheading {
+		font-size: 0.9rem;
+	}
+
+	.upload--form--input input {
+		font-size: 0.9rem;
+	}
+
+	.upload--form--input--field {
+		font-size: 0.9rem;
+	}
+}

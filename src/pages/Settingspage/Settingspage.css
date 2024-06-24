@@ -1,0 +1,132 @@
+.settings {
+	width: 100%;
+	min-height: calc(100vh - 6rem);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+}
+
+.settings--container {
+	width: 100%;
+	max-width: 1440px;
+	padding: 2rem;
+	border-radius: 1rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 2rem;
+	/* background-color: var(--background-light); */
+}
+
+.settings--header {
+	width: 100%;
+}
+
+.settings--form--subheading {
+	font-weight: 300;
+	font-size: 0.9rem;
+}
+
+.settings--form--body {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	flex-direction: column;
+	gap: 1.5rem;
+}
+
+.settings--form--image--label {
+	font-weight: 300;
+	font-size: 0.8rem;
+	color: var(--primary);
+}
+
+.settings--form--image {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 8rem;
+	height: 8rem;
+	overflow: hidden;
+	border-radius: 50%;
+	outline: 1px solid var(--primary);
+	cursor: pointer;
+}
+
+.settings--form--image img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.settings--form--image--overlay {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	font-size: 0.8rem;
+	visibility: hidden;
+	background-color: var(--background);
+	opacity: 0.75;
+}
+
+.settings--form--image:hover .settings--form--image--overlay {
+	visibility: visible;
+}
+
+.settings--form--input {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	flex-direction: column;
+}
+
+.settings--form--input label {
+	font-weight: 300;
+	font-size: 0.8rem;
+	color: var(--primary);
+}
+
+.settings--form--input input {
+	border: none;
+	outline: none;
+	background-color: var(--background-light);
+	width: 100%;
+	padding: 0.6rem 1.2rem;
+	border-radius: 0.5rem;
+	margin-top: 0.5rem;
+	font-size: 0.9rem;
+	font-weight: 300;
+	color: var(--font-color);
+}
+
+.settings--buttons {
+	margin-top: 1rem;
+	align-self: flex-end;
+}
+
+.settings--form--imageInput {
+	display: none;
+}
+
+.settings--photo--error {
+	font-size: 0.9rem;
+	font-weight: 400;
+	color: red;
+	font-style: italic;
+}
+
+.settings--form--error {
+	font-size: 0.9rem;
+	font-weight: 400;
+	color: red;
+	font-style: italic;
+}

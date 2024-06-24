@@ -1,0 +1,46 @@
+.followingsCard__profile {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	gap: 0.5rem;
+	width: 100%;
+	cursor: pointer;
+}
+
+.followingsCard__profile--image {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 1.5rem;
+	width: 1.5rem;
+	overflow: hidden;
+	border-radius: 50%;
+}
+/* 
+.followingsCard__profile--image img {
+	width: 1.5rem;
+	height: 1.5rem;
+} */
+
+.followingsCard__profile--name {
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	font-size: 0.8rem;
+	font-weight: 300;
+	color: var(--font-color);
+	transition: all 0.25s ease-in-out;
+}
+
+.followingsCard__profile:hover .followingsCard__profile--name {
+	color: var(--primary);
+	/* text-decoration: underline; */
+	transition: all 0.25s ease-in-out;
+}
+
+.followingsCard__profile--options {
+	margin-left: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}

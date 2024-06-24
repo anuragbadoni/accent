@@ -1,0 +1,146 @@
+.searchpage {
+	width: 100%;
+	background-color: var(--background);
+}
+
+.searchpage__container {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 6rem;
+}
+
+.searchpage__searchbar--container {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background-color: var(--background-light);
+	background-image: url(../../images/searchbg.png);
+	width: 100%;
+	padding: 5rem 2rem;
+	border-radius: 1rem;
+}
+
+.searchbar__heading {
+	font-size: 2.5rem;
+	text-align: center;
+}
+
+.searchbar__desc {
+	font-size: 1.3rem;
+	text-align: center;
+}
+
+.searchbar {
+	background-color: white;
+	padding: 2.5rem 2rem;
+	width: 90%;
+	max-width: 1440px;
+	border-radius: 1rem;
+	height: 4rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 1rem;
+	-webkit-box-shadow: 0px 10px 20px -3px rgba(0, 0, 0, 0.51);
+	-moz-box-shadow: 0px 10px 20px -3px rgba(0, 0, 0, 0.51);
+	box-shadow: 0px 10px 20px -3px rgba(0, 0, 0, 0.51);
+	position: absolute;
+	bottom: -2.5rem;
+}
+
+.searchbar__input {
+	width: 100%;
+	font-size: 1.2rem;
+	border: none;
+	outline: none;
+}
+
+.searchbar__btn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 0.5rem;
+	font-size: 1.2rem;
+	color: var(--primary);
+	cursor: pointer;
+	transition: all 0.25s ease-in-out;
+}
+
+.searchbar__btn:hover {
+	color: var(--primary-dark);
+	transition: all 0.25s ease-in-out;
+}
+
+.searchpage--noresults {
+	text-align: center;
+}
+
+.searchpage__results {
+	width: 100%;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	gap: 1.5rem;
+	justify-content: start;
+	align-items: start;
+}
+
+@media screen and (max-width: 1440px) {
+	.searchpage__results {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	.searchpage__results {
+		grid-template-columns: 1fr 1fr;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.searchbar__heading {
+		font-size: 2rem;
+	}
+
+	.searchbar__desc {
+		font-size: 1rem;
+	}
+
+	.searchbar {
+		padding: 2rem 1.5rem;
+		bottom: -2rem;
+	}
+
+	.searchbar__input {
+		font-size: 1rem;
+	}
+
+	.searchpage__results {
+		grid-template-columns: 1fr;
+	}
+}
+
+@media screen and (max-width: 425px) {
+	.searchpage__searchbar--container {
+		padding: 3rem 2rem;
+	}
+
+	.searchbar {
+		width: 100%;
+		padding: 1.5rem 1rem;
+		bottom: -1.5rem;
+		height: 3rem;
+	}
+
+	.searchbar__input {
+		font-size: 0.8rem;
+	}
+
+	.searchbar__heading {
+		font-size: 1.5rem;
+	}
+}

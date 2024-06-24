@@ -1,0 +1,56 @@
+.comment {
+	width: 100%;
+}
+
+.comment--container {
+	width: 100%;
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+	gap: 1rem;
+}
+
+.comment--user--photo {
+	margin-top: 2px;
+	width: 2rem;
+	height: 2rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+.comment--user--photo img {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+
+.comment--user--info {
+	background-color: var(--background-light);
+	padding: 0.5rem 1rem;
+	border-radius: 0.5rem;
+	border-top-left-radius: 0rem;
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+	flex-direction: column;
+	gap: 0.5rem;
+}
+
+.comment--user--username {
+	font-size: 1rem;
+	color: var(--primary);
+	font-weight: 500;
+	cursor: pointer;
+}
+
+.comment--user--username:hover {
+	text-decoration: underline;
+}
+
+.comment--user--text {
+	font-size: 0.85rem;
+	font-weight: 300;
+}

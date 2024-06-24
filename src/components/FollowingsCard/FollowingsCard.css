@@ -1,0 +1,41 @@
+.followingsCard__container {
+	width: 100%;
+	background-color: var(--background-light);
+	padding: 1.5rem;
+	border-radius: 1rem;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	flex-direction: column;
+	gap: 1.5rem;
+}
+
+.followingsCard__header {
+	font-size: 1rem;
+	font-weight: 300;
+	color: var(--primary);
+}
+
+.followingsCard__list {
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+	flex-direction: column;
+	width: 100%;
+	gap: 1rem;
+}
+
+.followingsCard__list p {
+	font-size: 0.9rem;
+	font-weight: 300;
+}
+
+.followingsCard__seemore {
+	width: 100%;
+	font-size: 0.8rem;
+	text-align: center;
+}
+
+.followingsCard__seemore a {
+	color: var(--primary);
+}

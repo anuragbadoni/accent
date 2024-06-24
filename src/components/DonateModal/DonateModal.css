@@ -1,0 +1,81 @@
+.donatemodal {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	backdrop-filter: blur(4px);
+	z-index: 10;
+	padding: 1rem;
+}
+
+.donatemodal--container {
+	width: 100%;
+	max-width: 40rem;
+	border-radius: 1rem;
+	background-color: var(--background-light);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 2rem;
+	padding: 2rem;
+	-webkit-box-shadow: 0px 10px 20px -3px rgba(0, 0, 0, 0.35);
+	-moz-box-shadow: 0px 10px 20px -3px rgba(0, 0, 0, 0.35);
+	box-shadow: 0px 10px 20px -3px rgba(0, 0, 0, 0.35);
+}
+.donatemodal--header {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+	gap: 1rem;
+}
+
+.donatemodal--form--subheading {
+	font-weight: 300;
+	font-size: 1rem;
+}
+
+.donatemodal--form--subheading span {
+	font-weight: 500;
+	color: var(--primary);
+}
+
+.donatemodal--message {
+	font-size: 1.1rem;
+	font-weight: 300;
+	text-align: center;
+}
+
+.donatemodal--buttons {
+	width: 100%;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	gap: 1rem;
+}
+
+.donatemodal--donatebtn {
+	background-color: orange;
+	transition: all 0.25s ease-in-out;
+}
+
+.donatemodal--donatebtn:hover {
+	background-color: darkorange;
+	transition: all 0.25s ease-in-out;
+}
+
+.donatemodal--form--warning {
+	font-size: 0.85rem;
+	font-weight: 400;
+	font-style: italic;
+	color: var(--grey);
+}

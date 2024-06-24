@@ -1,0 +1,31 @@
+.notfound {
+	width: 100%;
+	height: calc(100vh - 6rem);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.notfound--container {
+	/* width: 100%; */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 8rem;
+}
+
+.notfound--text--heading {
+	font-size: 5rem;
+}
+
+.notfound--text--subheading {
+	font-weight: 300;
+}
+
+.notfound--text--btn {
+	margin-top: 2rem;
+}
+
+.notfound--image {
+	max-width: 45rem;
+}
