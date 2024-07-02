@@ -4,8 +4,6 @@
 
 Accent is a platform for creators. It uses MERN stack along with add-ons like Firebase, Redux, etc., to provide an interactive platform to creators to share their posts and explore other creators <br>
 
-### Demo: https://accentapp.netlify.app/home
-
 <br>
 <br>
 
@@ -46,13 +44,7 @@ Fully responsive - can be viewed on desktops, laptops, tablets as well as smartp
 
   - After successful login, the user is greeted with the Homepage <br>
     <br>
-    ![homepage](https://i.imgur.com/skyQ19b.png)
-    <br>
-    <br>
-
-  - The left panel has the user's profile card and their followers <br>
-    <br>
-    ![leftpanel](https://i.imgur.com/RzB9LLw.png)
+    ![homepage](https://github.com/anuragbadoni/accent/assets/104890769/b9ec6351-2e8d-4e18-900a-b48466b3217d)
     <br>
     <br>
 
@@ -67,12 +59,6 @@ Fully responsive - can be viewed on desktops, laptops, tablets as well as smartp
       <br>
       <br>
 
-  - The Navbar has the logo on the left, the nav links in the middle and the upload button on the right as well as the options of settings and logout can be viewed on clicking the profile icon.<br>
-    <br>
-    ![navbar](https://i.imgur.com/rzykX8v.png)
-    <br>
-    <br>
-
   - Post Card - Each post card has the post image, the username and buttons for liking and saving the post. The edit option is also available for the post's created by the user themselves.
 
     - Other creator's Accent
@@ -83,10 +69,6 @@ Fully responsive - can be viewed on desktops, laptops, tablets as well as smartp
       <br>
 
     - Current user's Accent with update and delete options when clicked
-      <br>
-      <br>
-      ![userpostcard](https://i.imgur.com/MKDNw42.png)
-      <br>
       <br>
 
     - Edit Modal
@@ -106,19 +88,10 @@ Fully responsive - can be viewed on desktops, laptops, tablets as well as smartp
   - Users can view their saved accents from this page<br><br>
     ![savedpage](https://i.imgur.com/GutgHKy.png)<br><br><br>
 
-- ### Profile Page
-
-  - Users can view their posts, followers and following on this page<br><br>
-    ![profilepage](https://i.imgur.com/aYdPl9l.png)<br><br><br>
-
 - ### Upload Page
 
   - Users can upload their accents on this page<br><br>
     ![uploadpage](https://i.imgur.com/NpKAsQo.png)<br><br><br>
-
-- ### Setting Page
-  - Users can change their account settings on this page<br><br>
-    ![settingspage](https://i.imgur.com/PtU5rC1.png)<br><br><br>
 
 <br><br>
 
