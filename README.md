@@ -1,15 +1,10 @@
-<br>
-<br>
 
-![accent logo](https://i.imgur.com/QWzMzgI.png)
-
-<br>
 
 # Accent - A MERN app based on a platform for creators
 
 Accent is a platform for creators. It uses MERN stack along with add-ons like Firebase, Redux, etc., to provide an interactive platform to creators to share their posts and explore other creators <br>
 
-### Demo Link: [Click Here](https://accentapp.netlify.app/home) <br>
+### Demo: https://accentapp.netlify.app/home
 
 <br>
 <br>
