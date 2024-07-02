@@ -104,7 +104,7 @@ Fully responsive - can be viewed on desktops, laptops, tablets as well as smartp
 3. `Redux Toolkit` - State Management
 4. `Node & Express` - Backend Server
 5. `MongoDB` - Database for users' and accents' data
-6. `Firebase Storage` - CDN for Accent images
+6. `Firebase Storage` - Accent image storage
 7. `JWT` - Authentication
 8. `Netlify` - Frontend App Hosting
 9. `Cyclic` - Backend Server Hosting
