@@ -4,6 +4,7 @@ import { useDispatch, useSelector } from "react-redux";
 import PostCard from "../../components/PostCard/PostCard";
 import { getSavedPosts } from "../../redux/PostSlice";
 import "./Savedpage.css";
+import Loader from "../../components/Loader/Loader";
 
 const Savedpage = () => {
   const dispatch = useDispatch();
@@ -36,7 +37,7 @@ const Savedpage = () => {
           postsLoadingError ? (
             <p>{postsLoadingError}</p>
           ) : (
-            <p>Loading</p>
+            <Loader></Loader>
           )
         ) : (
           <div className="saved__feed--posts">

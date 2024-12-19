@@ -21,6 +21,7 @@ const Searchpage = () => {
 	};
 
 	// to handle the query change
+	
 	const handleQueryChange = (e) => {
 		if (removeWhiteSpace(e.target.value)) {
 			return;

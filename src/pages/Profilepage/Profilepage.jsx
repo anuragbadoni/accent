@@ -118,7 +118,7 @@ const Profilepage = () => {
 
 					{/* Profile Stats */}
 					<div className="profile--stats--section">
-						<div className="profile--stat" onClick={() => setResults("posts")}>
+						<div className="profile--stat " onClick={() => setResults("posts")}>
 							<h2 className="profile--stat--num">{posts.length}</h2>
 							<p className="profile--stat--label">Posts</p>
 						</div>

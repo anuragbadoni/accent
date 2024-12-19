@@ -21,6 +21,7 @@ import {
 import Comment from "../../components/Comment/Comment";
 import { commentPost } from "../../redux/PostSlice";
 import DonateModal from "../../components/DonateModal/DonateModal";
+import Loader from "../../components/Loader/Loader";
 
 const Postpage = () => {
 	const navigate = useNavigate();
@@ -177,7 +178,7 @@ const Postpage = () => {
 					</div>
 				) : (
 					<div className="postpage--postImage--placeholder">
-						Loading Image...
+						 <Loader></Loader>
 					</div>
 				)}
 
